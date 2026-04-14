@@ -1,16 +1,16 @@
-# React + Vite
+The Digital Document Manager is an industry-ready web application developed using React.js for the frontend, Redux Toolkit for centralized state management, and Firebase Storage for secure cloud-based file storage.
+This system enables users to upload, organize, preview, update, and delete digital documents such as PDFs, images, resumes, certificates, and reports. Through Redux asynchronous actions (Thunk middleware), all file operations—including upload, retrieval, deletion, and metadata handling—are managed efficiently with loading and error states, while Firebase Storage ensures secure cloud access and instant availability of files.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Core Features
+1. Upload Document
+2. View Documents
+3. Update File Details
+4. Delete Document
+5. File Category Management (Extension)
+6. Real-Time UI Sync
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Output of the Programme
+<img width="720" height="785" alt="image" src="https://github.com/user-attachments/assets/2056a54b-ae7d-4ffd-96fb-a76fbf1c984c" />
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
